@@ -11,11 +11,11 @@ class Altomovel{
 
     public function setModelo($modelo){$this->modelo = $modelo; }//metodos set
 
-    public function getMotor():float{ return $this->motor;   }//metodos get
+    public function getMotor():float{ return $this->motor;   }//metodos get float
 
     public function setMotor($motor){$this->motor = $motor; }//metodos set
 
-    public function getAno():int{ return $this->ano;  }//metodos get
+    public function getAno():int{ return $this->ano;  }//metodos get int
 
     public function setAno($ano){ $this->ano = $ano; }//metodos set
 
